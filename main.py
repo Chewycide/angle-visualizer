@@ -40,6 +40,7 @@ def origin_to_mouse(origin: list=C_COORD):
 def main():
     pygame.init()
     screen = pygame.display.set_mode(SCREEN_S)
+    pygame.display.set_caption("Angle Visualizer")
 
 
     # Line
