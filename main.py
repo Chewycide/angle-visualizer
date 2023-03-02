@@ -83,6 +83,13 @@ def main():
         # draw line (antialiased)
         pygame.draw.aaline(
             screen,
+            RED,
+            C_COORD,
+            INITIAL_LINE_END
+        )
+
+        pygame.draw.aaline(
+            screen,
             GREEN,
             C_COORD,
             line_end_pos
